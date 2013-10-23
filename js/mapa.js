@@ -47,7 +47,6 @@ $("form").submit(function(event) {
 	var request = {
 		origin: enderecoPartida,
 		destination: enderecoChegada,
-		waypoints: [{location: 'Jarinu Brasil'}, {location: 'Campo Limpo Paulista Brasil'}],
 		travelMode: google.maps.TravelMode.DRIVING
 	};
 	
